@@ -73,7 +73,7 @@ header{
 .arrow-line {
     width: 50px;
     height: 50px;
-    margin: 80px auto;
+    transform: translate(160px, 60px);
 }
 
 .section-text {
