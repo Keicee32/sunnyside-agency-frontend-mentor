@@ -7,7 +7,7 @@ body {
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
     text-align: center;
-    color: hsl(210, 4%, 67%);
+    color: hsl(232, 10%, 55%);
 }
 
 img {
@@ -76,7 +76,7 @@ header{
 }
 
 .section-text {
-    padding: 1em;
+    padding: 1.5em;
     margin-bottom: 1em;
 }
 
@@ -90,4 +90,26 @@ header{
     color: black;
     font-family: 'Fraunces', sans-serif;
     text-decoration: none;
+}
+
+.graphics,
+.photography {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+    padding: 1em 1em 2em;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* margin-bottom: 1em; */
+}
+
+.graphics {
+    background-image: url('./images/mobile/image-graphic-design.jpg');
+}
+
+.photography {
+    background-image: url('./images/mobile/image-photography.jpg');
 }
