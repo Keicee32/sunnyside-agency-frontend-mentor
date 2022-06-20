@@ -40,15 +40,7 @@ h1,
 /* HEADER AND HERO SECTIONS */
 
 header{
-    /* background-image: url('./images/mobile/image-header.jpg'); */
-    background-image:  -webkit-image-set(
-        url('./images/mobile/image-header.jpg') 1x,
-        url('./images/desktop/image-header.jpg') 2x
-    );
-    /* background-image:  image-set(
-        url('./images/mobile/image-header.jpg') 1x,
-        url('./images/desktop/image-header.jpg') 2x
-    ); */
+    background-image: url('./images/mobile/image-header.jpg');
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
