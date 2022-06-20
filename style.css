@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: 'Fraunces', sans-serif;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+h2 {
+    margin: 1.5em 0;
+}
+
+/* HEADER AND HERO SECTIONS */
+
+header{
+    background-image: url('./images/mobile/image-header.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.container-flex {   
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.logo {
+    width: 124px;
+}
+
+.hamburger {
+    width: 24px;
+}
+
+.hamburger-menu,
+.navbar {
+    display: none;
+}
+
+.accent-text {
+    display: block;
+}
+
+.arrow-line {
+    width: 50px;
+    margin: 80px auto;
+}
+
+.section-text {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.btn {
+    padding: 0 10px;
+    border: none;
+    margin: 1.5em 0;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: hsla(51, 100%, 49%, 0.2);
+    color: black;
+    font-family: 'Fraunces', sans-serif;
+    text-decoration: none;
+}
