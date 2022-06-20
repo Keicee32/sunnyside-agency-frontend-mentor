@@ -40,7 +40,15 @@ h1,
 /* HEADER AND HERO SECTIONS */
 
 header{
-    background-image: url('./images/mobile/image-header.jpg');
+    /* background-image: url('./images/mobile/image-header.jpg'); */
+    background-image:  -webkit-image-set(
+        url('./images/mobile/image-header.jpg') 1x,
+        url('./images/desktop/image-header.jpg') 2x
+    );
+    /* background-image:  image-set(
+        url('./images/mobile/image-header.jpg') 1x,
+        url('./images/desktop/image-header.jpg') 2x
+    ); */
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,13 +106,17 @@ header{
     height: 100vh;
     background-position: center;
     background-size: cover;
-    margin-bottom: 0;
     padding: 1em 1em 2em;
     display: flex;
-    text-align: center;
     flex-direction: column;
     justify-content: flex-end;
-    /* margin-bottom: 1em; */
+}
+
+.graphics h2,
+.photography h2,
+.graphics p,
+.photography p {
+    margin: 0 0 1em;
 }
 
 .graphics {
